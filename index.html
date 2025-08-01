@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible & SEO-Friendly Web Page</title>
+  <meta name="description" content="A beginner-friendly, accessible, and SEO-optimized sample HTML5 web page layout using semantic elements.">
+  <meta name="author" content="Your Name">
+</head>
+
+<body>
+
+  <!-- HEADER: Contains site branding and intro -->
+  <header role="banner">
+    <h1>Learn Web Structure with HTML5</h1>
+    <p>Your guide to building semantic, accessible, and SEO-ready web pages.</p>
+  </header>
+
+  <!-- NAVIGATION: Helps users and screen readers navigate -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about" title="Learn more about this page">About</a></li>
+      <li><a href="#features" title="View key features">Features</a></li>
+      <li><a href="#contact" title="Get in touch">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN: Core page content -->
+  <main role="main">
+    
+    <!-- ABOUT SECTION -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This example demonstrates how to create a simple, well-structured web page using only HTML5. It follows best practices for semantic structure, accessibility, and search engine optimization (SEO).</p>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      
+      <article aria-labelledby="semantic-structure">
+        <h3 id="semantic-structure">Semantic Structure</h3>
+        <p>By using HTML5 elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;section&gt;</code>, the structure is meaningful and readable for both users and machines.</p>
+      </article>
+
+      <article aria-labelledby="accessibility">
+        <h3 id="accessibility">Accessibility</h3>
+        <p>Landmarks and ARIA labels are used to assist screen readers and help users navigate efficiently.</p>
+      </article>
+
+      <article aria-labelledby="seo">
+        <h3 id="seo">Search Engine Optimization (SEO)</h3>
+        <p>Proper heading hierarchy, relevant metadata, and readable content ensure better indexing by search engines.</p>
+      </article>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you’d like to learn more or ask a question, feel free to <a href="mailto:youremail@example.com">email us</a>.</p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <p>&copy; 2025 Tolu Adeniyi. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
